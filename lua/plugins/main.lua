@@ -124,7 +124,6 @@ return {
         "typescript",
         "vim",
         "yaml",
-        "react"
       },
     },
   },
