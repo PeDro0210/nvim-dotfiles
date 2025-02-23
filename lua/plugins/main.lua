@@ -8,7 +8,7 @@
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 --#region
-
+vim.g.lazyvim_check_order = false
 return {
   -- change trouble config
   {
@@ -124,7 +124,6 @@ return {
         "typescript",
         "vim",
         "yaml",
-        "react"
       },
     },
   },
