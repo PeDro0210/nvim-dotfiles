@@ -10,6 +10,18 @@
 --#region
 vim.g.lazyvim_check_order = false
 return {
+  {
+    -- Themes
+    require("plugins.themes.synthwave84"),
+    require("plugins.themes.alpha"),
+  },
+  {
+    -- Lsp
+    require("plugins.lsp.coc"),
+    require("plugins.lsp.general"),
+    require("plugins.lsp.mason"),
+  },
+  {},
   -- change trouble config
   {
     "folke/trouble.nvim",
