@@ -9,6 +9,7 @@
 -- * override the configuration of LazyVim plugins
 --#region
 vim.g.lazyvim_check_order = false
+
 return {
   {
     -- Themes
@@ -26,6 +27,9 @@ return {
   {
     require("plugins.general.telescope"),
     require("plugins.general.treesitter"),
+  },
+  {
+    require("plugins.debugging.rustaceanvim"),
   },
 
   --General Configs
