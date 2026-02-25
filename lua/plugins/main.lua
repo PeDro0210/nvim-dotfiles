@@ -25,6 +25,7 @@ return {
 		require("plugins.general.neo_tree"),
 		require("plugins.general.nvim_notify"),
 		require("plugins.general.conform"),
+		require("plugins.general.cursor"),
 	},
 	{
 		require("plugins.debugging.rustaceanvim"),
