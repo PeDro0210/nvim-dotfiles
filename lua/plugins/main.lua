@@ -10,6 +10,7 @@ return {
 		require("plugins.themes.synthwave84"),
 		require("plugins.themes.alpha"),
 		require("plugins.themes.snacks"),
+		require("plugins.themes.neopywal"),
 	},
 	{
 		-- Lsp
