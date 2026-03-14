@@ -8,7 +8,6 @@ return {
 	{
 		-- Themes
 		require("plugins.themes.synthwave84"),
-		require("plugins.themes.alpha"),
 		require("plugins.themes.snacks"),
 		require("plugins.themes.neopywal"),
 	},
@@ -26,6 +25,7 @@ return {
 		require("plugins.general.nvim_notify"),
 		require("plugins.general.conform"),
 		require("plugins.general.cursor"),
+		require("plugins.general.image"),
 	},
 	{
 		require("plugins.debugging.rustaceanvim"),
